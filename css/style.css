@@ -125,7 +125,8 @@ header{
     font-size: 50px;
     padding: 5% 0 3%;
 }
-.text-container p.text{
+.text-container p.text,
+.bottom-text-container p.text{
     color:#3a3e40;
     font-size: 23px;
     line-height: 30px;
@@ -138,4 +139,19 @@ header{
 }
 .description-easy img{
     float: right;
+}
+
+/* Discord functionality */
+.bottom-text-container{
+    width: 90%;
+    margin: auto;
+    text-align: center;
+    padding: 3% 0;
+}
+.bottom-image-container{
+    width: 90%;
+    margin:auto;
+}
+.bottom-image-container img{
+    width: 100%;
 }
