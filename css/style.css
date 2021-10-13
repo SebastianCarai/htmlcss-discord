@@ -6,10 +6,9 @@
 }
 
 
-
 /* GENERAL */
 body{
-    font-family: sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
 }
 .container{
     width: 70%;
@@ -25,7 +24,6 @@ body{
 }
 
 
-
 /* Buttons */
 .btn{
     border-radius: 25px;
@@ -33,12 +31,22 @@ body{
 }
 .small-btn{
     padding: 6% 10%;
-    font-size: 13px;
+    font-size: 15px;
     font-weight: 600;
 }
-.small-btn{
+.big-btn{
+    padding: 2% 5%;
+    font-size: 20px;
+    font-weight: bold;
+    margin: 0 1%;
+}
+.white-btn{
     background-color: white;
     color: black;
+}
+.black-btn{
+    background-color: #23272a;
+    color: white;
 }
 
 
@@ -61,10 +69,44 @@ header{
 .top-menu a{
     text-decoration: none;
     color: white;
-    padding: 0 2%;
+    font-size: 16px;
     font-weight: 600;
+    padding: 0 2%;
 }
 .button-container{
     text-align: right;
     width: 15%;
+}
+
+
+
+/* MAIN */
+.text{
+    color: white;
+    font-size: 23px;
+}
+
+
+/* Banner */
+.banner-container{
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    text-align: center;
+}
+
+.banner-content{
+    width: 40%;
+    margin: auto;
+    padding-top: 7%;
+    padding-bottom: 10%;
+}
+
+.banner-content h1{
+    color: white;
+    font-size: 70px;
+    font-weight: 800;
+    margin-bottom: 5%;
+}
+.big-btn-container{
+    margin-top: 4%;
 }
