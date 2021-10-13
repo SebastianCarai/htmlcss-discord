@@ -1,0 +1,70 @@
+/* RESET */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* GENERAL */
+body{
+    font-family: sans-serif;
+}
+.container{
+    width: 70%;
+    margin: auto;
+}
+.col{
+    float: left;
+}
+.clearfix::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+
+
+/* Buttons */
+.btn{
+    border-radius: 25px;
+    text-decoration: none;
+}
+.small-btn{
+    padding: 6% 10%;
+    font-size: 13px;
+    font-weight: 600;
+}
+.small-btn{
+    background-color: white;
+    color: black;
+}
+
+
+
+/* HEADER */
+header{
+    background-color: #3161e0;
+    height: 100px;
+    line-height: 100px;
+}
+.logo-container{
+    width: 15%;
+    padding-top: 1%;
+}
+.top-menu{
+    width: 70%;
+    text-align: center;
+    line-height: 100px;
+}
+.top-menu a{
+    text-decoration: none;
+    color: white;
+    padding: 0 2%;
+    font-weight: 600;
+}
+.button-container{
+    text-align: right;
+    width: 15%;
+}
