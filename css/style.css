@@ -22,20 +22,23 @@ body{
     display: table;
     clear: both;
 }
-
+.down-arrow{
+    font-size: 25px;
+    padding-right: 7px;
+}
 
 /* Buttons */
 .btn{
-    border-radius: 25px;
+    border-radius: 40px;
     text-decoration: none;
 }
 .small-btn{
-    padding: 6% 10%;
+    padding: 8px 20px;
     font-size: 15px;
     font-weight: 600;
 }
 .big-btn{
-    padding: 2% 5%;
+    padding: 17px 32px;
     font-size: 20px;
     font-weight: bold;
     margin: 0 1%;
@@ -46,6 +49,10 @@ body{
 }
 .black-btn{
     background-color: #23272a;
+    color: white;
+}
+.purple-btn{
+    background-color: #8ea1e1;
     color: white;
 }
 
@@ -77,6 +84,7 @@ header{
     text-align: right;
     width: 15%;
 }
+/* END HEADER */
 
 
 
@@ -84,6 +92,10 @@ header{
 .text{
     color: white;
     font-size: 23px;
+}
+.gray-bg-box{
+    padding: 80px 0;
+    background-color: #f6f6f6;
 }
 
 /* Banner */
@@ -133,10 +145,6 @@ header{
 }
 
 /* Description-easy */
-.gray-bg{
-    padding: 80px 0;
-    background-color: #f6f6f6;
-}
 .description-easy img{
     float: right;
 }
@@ -155,3 +163,93 @@ header{
 .bottom-image-container img{
     width: 100%;
 }
+.ready{
+    width: 60%;
+    margin: auto;
+    padding: 3%;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+}
+.ready h3{
+    text-align: center;
+    font-size: 35px;
+}
+.download-btn{
+    width: 50%;
+    margin: auto;
+    padding: 20px 0 40px;
+    text-align: center;
+}
+/* END MAIN */
+
+
+
+/* FOOTER */
+footer{
+    background-color: #23272a;
+    padding-top: 80px;
+}
+footer .container{
+    border-bottom: 2px solid #384259;
+}
+.social-col{
+    width: 40%;
+}
+.list-col{
+    width: 15%;
+}
+
+/* Discord social networks */
+.footer-title{
+    color:#7288d9;
+    font-size: 30px;
+}
+.ita-flag{
+    vertical-align: middle;
+    height: 20px;
+}
+footer .text{
+    padding-left: 5px;
+    font-size: 15px;
+}
+.down-arrow{
+    display: inline-block;
+    position: relative;
+    bottom: 7px;
+    padding: 0 5px;
+    font-weight: 900;
+}
+footer .icon{
+    color: white;
+    padding: 18px 10px;
+    font-size: 20px;
+    
+}
+
+/* Footer lists */
+ul{
+    list-style-type: none;
+}
+.list-title{
+    font-size: 20px;
+    color: #7288d9;
+    padding-top: 10px;
+}
+ul a{
+    display: inline-block;
+    text-decoration: none;
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+    padding: 9px 0;
+}
+
+#end-page{
+    padding: 40px 0 80px;
+}
+.logo-bottom{
+    width: 85%;
+}
+/* END FOOTER */
